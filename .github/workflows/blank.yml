@@ -31,3 +31,4 @@ jobs:
 
       - run: |
           env | sort
+          ls -R -ll $RUNNER_TOOL_CACHE/Python
